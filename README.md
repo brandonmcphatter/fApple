@@ -1,4 +1,4 @@
-# fApple 🍎
+# fApple 🍎 (in progress)
 
 fApple is a clone of the official Apple website, built to emulate its design and functionality. 
 This project is an exercise in building a responsive, elegant, and modern web application.
