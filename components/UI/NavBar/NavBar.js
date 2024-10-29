@@ -8,7 +8,7 @@ export default function NavBar() {
         <nav style={{backgroundColor: 'rgba(24,24,24,0.68)', opacity: '99%', backdropFilter: 'blur(30px)'}} className={'fixed w-full'}>
             <div className={'h-12 md:h-11 flex px-4 md:justify-evenly content-center lg:w-1/2 lg:mx-auto'}>
                 {/*Apple Logo*/}
-                <div className={'w-4 md:w-4 text-white content-center me-auto md:ms-1'}>
+                <div className={'w-5 md:w-4 text-white content-center me-auto md:ms-1'}>
                     <FontAwesomeIcon icon={faApple} style={{color: 'white'}}/>
                 </div>
                 {/*Product List*/}
