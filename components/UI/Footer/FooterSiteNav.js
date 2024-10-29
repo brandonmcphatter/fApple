@@ -1,5 +1,6 @@
-import AccordionFooter from "@/components/UI/AccordionFooter";
-import AccFooterDrop from "@/components/UI/AccFooterDrop";
+import AccordionFooter from "@/components/UI/Footer/AccordionFooter";
+import AccFooterDrop from "@/components/UI/Footer/AccFooterDrop";
+
 
 export default function FooterSiteNav() {
     return (

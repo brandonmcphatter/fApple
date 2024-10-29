@@ -1,6 +1,6 @@
 export default function FooterText() {
     return (
-        /*Footer Text*/
+        /*SiteFooter Text*/
     <ul className={'pt-4 tracking-wide grid gap-2'}
         style={{fontFamily: 'Helvetica', fontSize: '12px', color: '#6b7280'}}>
         <li>

@@ -1,6 +1,6 @@
 export default function ExtraFooterText() {
     return (
-        /*More Footer Text*/
+        /*More SiteFooter Text*/
     <ul className={'pt-4 tracking-wide grid gap-3'}
         style={{fontFamily: 'Helvetica', fontSize: '12px', color: '#6b7280'}}>
         <li>

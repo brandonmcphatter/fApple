@@ -1,10 +1,11 @@
+'use client';
+
 import {useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAngleDown, faAngleUp} from "@fortawesome/free-solid-svg-icons";
 
 export default function AccordionFooter({title, children}) {
     const [drop, setDrop] = useState(false);
-
     function toggleDrop() {
         setDrop(!drop);
     }
