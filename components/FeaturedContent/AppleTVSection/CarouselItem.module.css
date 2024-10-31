@@ -1,0 +1,21 @@
+.item{
+    min-height: 30rem;
+    min-width: 17rem;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+@media (min-width: 768px) {
+    .item{
+        min-height: 23rem;
+        min-width: 42rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .item{
+        min-height: 42rem;
+        min-width: 78rem;
+    }
+}
