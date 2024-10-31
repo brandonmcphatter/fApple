@@ -5,14 +5,17 @@ import {faGripLines, faShoppingBag} from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
     return (
-        <nav style={{backgroundColor: 'rgba(24,24,24,0.68)', opacity: '99%', backdropFilter: 'blur(30px)'}} className={'fixed w-full'}>
+        <nav style={{backgroundColor: 'rgba(24,24,24,0.68)',
+            opacity: '99%',
+            backdropFilter: 'blur(30px)',
+        zIndex: '100'}} className={'fixed w-full'}>
             <div className={'h-12 md:h-11 flex px-4 md:justify-evenly content-center lg:w-1/2 lg:mx-auto'}>
                 {/*Apple Logo*/}
                 <div className={'w-5 md:w-4 text-white content-center me-auto md:ms-1'}>
                     <FontAwesomeIcon icon={faApple} style={{color: 'white'}}/>
                 </div>
                 {/*Product List*/}
-                <div className={'content-center hidden md:inline mx-auto px-2 w-full'}>
+                <div className={'content-center hidden md:inline-block mx-auto px-2 w-full'}>
                     <ul className={'flex gap-3 justify-evenly'}
                         style={{color: 'white', fontFamily: 'Helvetica', fontSize: '12px'}}>
                         <li>Store</li>
@@ -22,7 +25,7 @@ export default function NavBar() {
                         <li>Watch</li>
                         <li>Vision</li>
                         <li>AirPods</li>
-                        <li>TV & Home</li>
+                        <li className={'text-nowrap'}>TV & Home</li>
                         <li>Entertainment</li>
                         <li>Accessories</li>
                         <li>Support</li>
