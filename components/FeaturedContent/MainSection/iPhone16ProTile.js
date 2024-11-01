@@ -1,4 +1,5 @@
 import styles from "@/components/FeaturedContent/MainSection/MainContentTile.module.css";
+import Link from "next/link";
 
 export default function IPhone16ProTile() {
     const product = 'iPhone 16 Pro';
@@ -27,10 +28,12 @@ export default function IPhone16ProTile() {
                     <div className={''}>
                         {/*Buttons*/}
                         <div className={'flex justify-center gap-3'}>
-                            <button className={'bg-blue-500 text-white py-2 px-4 rounded-full text-sm'}>Learn More
-                            </button>
+                            <Link href={'/iphone-16-pro'} >
+                                <button className={'bg-blue-500 hover:bg-blue-400 text-white py-2 px-4 rounded-full text-sm'}>Learn More
+                                </button>
+                            </Link>
                             <button
-                                className={'bg-transparent text-blue-500 border border-blue-500 py-2 px-4 rounded-full text-sm'}>Buy
+                                className={'bg-transparent hover:bg-blue-400 text-blue-500 hover:text-white border border-blue-500 py-2 px-4 rounded-full text-sm'}>Buy
                             </button>
 
                         </div>
