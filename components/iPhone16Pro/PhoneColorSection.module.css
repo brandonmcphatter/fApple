@@ -1,0 +1,17 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+
+    }
+}
