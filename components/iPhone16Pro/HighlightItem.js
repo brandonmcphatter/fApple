@@ -1,18 +1,13 @@
 import styles from './HighlightItem.module.css';
+import Image from "next/image";
 
-export default function HighlightItem({category, quote, btnText}) {
+export default function HighlightItem({photo, quote}) {
     return (
 
         <div className={styles.item}>
-
-            {/*Text and Button*/}
-            {/*<div className={'flex-col text-center pb-5'}>*/}
-            {/*    <div className={'font-bold text-sm '}>{category}</div>*/}
-            {/*    <div className={'text-sm px-4'}>{quote}</div>*/}
-            {/*    <button className={'bg-gray-300 hover:bg-gray-200 rounded-full mt-2 px-4 py-2 text-sm font-thin tracking-wide'}>*/}
-            {/*        {`${btnText === ''}` ? 'Stream Now' : btnText}*/}
-            {/*    </button>*/}
-            {/*</div>*/}
+            <div className={'bg-white overflow-hidden'}>
+                <Image src={photo} alt={'feature'} fill={true} className={styles.img}/>
+            </div>
         </div>
     )
 }
