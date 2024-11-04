@@ -10,7 +10,7 @@ export default function AppleWatch10Tile() {
     return (
         <div className={styles.miniContent}>
             <Image src={appleWatch10} alt={'AirPods Pro 2'} className={styles.img} />
-            <div className={'text-black flex-col mx-auto w-1/2 md:w-3/4 lg:w-1/2 -mb-3 pb-6 md:pt-2 '}>
+            <div className={'text-black flex-col mx-auto w-1/2 md:w-3/4 lg:w-1/2 -mb-8 md:-mb-4 lg:-mb-12 pb-6 lg:pt-2 '}>
                 <div className={' '}>
                     {/*Product Title*/}
                     <div className={'text-center '}>
