@@ -4,6 +4,13 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPause, faPlay} from "@fortawesome/free-solid-svg-icons";
 import {useState} from "react";
 import AppMarqueeItem from "@/components/FeaturedContent/MarqueeSection/AppMarqueeItem";
+import helloKitty from '../../../public/img/marqueeimages/helloKity.jpg';
+import nba2k25 from '../../../public/img/marqueeimages/nba2k25.jpg';
+import hiitWithBrian from '../../../public/img/marqueeimages/hiitWithBrian.jpg';
+import run5k from  '../../../public/img/marqueeimages/run5K.jpg';
+import aListPop from '../../../public/img/marqueeimages/aListPop.jpg';
+import headSpace from '../../../public/img/marqueeimages/headSpace.jpg';
+
 
 export default function AppMarquee() {
     const [notPaused, setNotPaused] = useState(true);
@@ -15,23 +22,21 @@ export default function AppMarquee() {
     return (
         <>
             <div className={'overflow-hidden'}>
-                <div className={'flex relative mb-8 '}>
-                    {/*// carousel container*/}
-                    <div className={'animate-marquee flex whitespace-nowrap'} style={{fontFamily: 'Helvetica'}}>
-                        <AppMarqueeItem title={'HIIT with Brian'} category={'Fitness+'} color={'green'}/>
-                        <AppMarqueeItem title={'Headspace'} category={'Music'} color={'red'}/>
-                        <AppMarqueeItem title={'NBA 2K25 Arcade Edition'} category={'Arcade'} color={'blue'}/>
-                        <AppMarqueeItem title={'Run Your First 5K'} category={'Fitness+'} color={'orange'}/>
-                        <AppMarqueeItem title={'A-List Pop'} category={'Music'} color={'gray'}/>
-                        <AppMarqueeItem title={'Hello Kitty Island Adventure'} category={'Arcade'} color={'yellow'}/>
+                <div className={'flex relative mb-8 mt-4 '}>
+                    {/*//marquee container*/}
+                    <div className={' animate-marquee flex whitespace-nowrap'} style={{fontFamily: 'Helvetica'}}>
+                        <AppMarqueeItem image={hiitWithBrian} title={'HIIT with Brian'} category={'Fitness+'} />
+                        <AppMarqueeItem image={nba2k25} title={'NBA 2K25 Arcade Edition'} category={'Arcade'} />
+                        <AppMarqueeItem image={run5k} title={'Run Your First 5K'} category={'Fitness+'} />
+                        <AppMarqueeItem image={aListPop} title={'A-List Pop'} category={'Music'} />
+                        <AppMarqueeItem image={helloKitty} title={'Hello Kitty Island Adventure'} category={'Arcade'} />
                     </div>
                     <div className={'absolute top-0 whitespace-nowrap animate-marquee2 flex'} style={{fontFamily: 'Helvetica'}}>
-                        <AppMarqueeItem title={'HIIT with Brian'} category={'Fitness+'} color={'green'}/>
-                        <AppMarqueeItem title={'Headspace'} category={'Music'} color={'red'}/>
-                        <AppMarqueeItem title={'NBA 2K25 Arcade Edition'} category={'Arcade'} color={'blue'}/>
-                        <AppMarqueeItem title={'Run Your First 5K'} category={'Fitness+'} color={'orange'}/>
-                        <AppMarqueeItem title={'A-List Pop'} category={'Music'} color={'gray'}/>
-                        <AppMarqueeItem title={'Hello Kitty Island Adventure'} category={'Arcade'} color={'yellow'}/>
+                    <AppMarqueeItem image={hiitWithBrian} title={'HIIT with Brian'} category={'Fitness+'} />
+                    <AppMarqueeItem image={nba2k25} title={'NBA 2K25 Arcade Edition'} category={'Arcade'} />
+                    <AppMarqueeItem image={run5k} title={'Run Your First 5K'} category={'Fitness+'} />
+                    <AppMarqueeItem image={aListPop} title={'A-List Pop'} category={'Music'} />
+                    <AppMarqueeItem image={helloKitty} title={'Hello Kitty Island Adventure'} category={'Arcade'} />
                     </div>
 
                     {/*play-pause button*/}
