@@ -2,10 +2,18 @@
     height: 32rem;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    position: relative;
+    background-color: black;
 
 }
 
+.img {
+    height: 20rem;
+    width: 20rem;
+    margin: 0 auto
+}
 @media (min-width: 768px) {
     .miniContent{
         height: 30rem;
