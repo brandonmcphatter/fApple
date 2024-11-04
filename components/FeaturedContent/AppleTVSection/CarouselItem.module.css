@@ -1,21 +1,22 @@
 .item{
-    min-height: 30rem;
-    min-width: 17rem;
+    min-height: 25rem;
+    min-width: 19rem;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    background-color: lightgray;
+    position: relative;
 }
 
 @media (min-width: 768px) {
     .item{
         min-height: 23rem;
-        min-width: 42rem;
+        min-width: 21rem;
     }
 }
 
 @media (min-width: 1024px) {
     .item{
         min-height: 42rem;
-        min-width: 78rem;
+        min-width: 23rem;
     }
 }
