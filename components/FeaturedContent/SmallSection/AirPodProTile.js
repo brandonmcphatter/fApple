@@ -1,12 +1,15 @@
-import styles from "@/components/FeaturedContent/SmallSection/MiniContentTile.module.css";
+import styles from "@/components/FeaturedContent/SmallSection/AirPodProTile.module.css";
+import Image from "next/image";
+import iPadMinis from '/public/img/airPodsPro.png';
 
 export default function AirPodProTile() {
     const product = 'AirPods Pro 2';
     const airPodProQuote = 'Hearing Test, Hearing Aid, and Hearing Protection features in a free software update.';
-const bgColor = 'black';
+
     return (
-        <div className={styles.miniContent} style={{backgroundColor: `${bgColor}`}}>
-            <div className={'flex-col w-1/2 md:w-3/4 mt-64 md:mt-56 lg:mt-80'}>
+        <div className={styles.miniContent}>
+            <Image src={iPadMinis} alt={'iPad Minis'} className={styles.img} />
+            <div className={'flex-col mx-auto w-1/2 md:w-3/4 lg:w-1/2 -mt-10 md:-mt-16 lg:-mt-4 pb-10 lg:pb-0'}>
                 <div className={'pt-10 mb-4'}>
                     {/*Product Title*/}
                     <div className={'text-center'}>
@@ -35,7 +38,6 @@ const bgColor = 'black';
                     {/*</div>*/}
                 </div>
             </div>
-
         </div>
     )
 }

@@ -1,25 +1,29 @@
-import styles from "@/components/FeaturedContent/MainSection/MainContentTile.module.css";
+import styles from "@/components/FeaturedContent/MainSection/AppleWatchUltraTile.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faApple} from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
+import appleWatchUltra from "@/public/img/appleWatchUltra.jpg";
 
 export default function AppleWatchUltraTile() {
     const product = 'WATCH';
     const appleWatchQuote = 'ULTRA 2';
-    const bgColor = 'darkgreen';
+
     return (
         <>
-            <div className={styles.mainContent} style={{backgroundColor: `${bgColor}`}}>
-                <div className={'flex-col w-1/2 md:w-3/4 mt-30 md:mt-1 lg:mt-3'}>
-                    <div className={'pt-10 mb-4'}>
+            <div className={styles.iPhone16}>
+                <Image src={appleWatchUltra} alt={'iPhone 16 gallery'} className={styles.img}/>
+                <div className={'flex-col md:pt-10 z-10'}>
+                    <div className={'pt-10 mb-4 text-black'}>
                         {/*Product Title*/}
-                        <div className={'text-center'}>
-                          <span className={''} style={{fontFamily: 'Helvetica', fontSize: '32px'}}>
-                              <FontAwesomeIcon icon={faApple} />{product}
+                        <div className={'text-center '}>
+                          <span className={'text-white'}
+                                style={{fontFamily: 'Helvetica', fontSize: '32px', fontWeight: 500}}>
+                             <FontAwesomeIcon icon={faApple}/> {product}
                           </span>
                         </div>
                         {/*Product Quote*/}
                         <div className={'text-center'} style={{fontFamily: 'Helvetica', fontSize: '16px'}}>
-                          <span className={'px-6 text-center tracking-wide text-red-700 font-bold'}>
+                          <span className={'px-6 text-center tracking-wide font-thin text-red-600'}>
                               {appleWatchQuote}
                           </span>
                         </div>

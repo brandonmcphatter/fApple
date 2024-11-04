@@ -1,13 +1,15 @@
-import styles from "@/components/FeaturedContent/SmallSection/MiniContentTile.module.css";
+import styles from "@/components/FeaturedContent/SmallSection/iPadMini2Tile.module.css";
+import Image from "next/image";
+import iPadMinis from '/public/img/iPadMini.png';
 
 export default function IPadMini2Tile() {
     const product = 'iPad Mini 2';
-    const airPodProQuote = 'Hello Apple Intelligence.';
-    const bgColor = 'blue';
+    const iPadQuote = 'Hello Apple Intelligence.';
     return (
-        <div className={styles.miniContent} style={{backgroundColor: `${bgColor}`}}>
-            <div className={'flex-col w-1/2 md:w-3/4 mt-72 md:mt-64 lg:mt-80'}>
-                <div className={'pt-10 mb-4 mt-4 lg:mt-6'}>
+        <div className={styles.miniContent}>
+            <Image src={iPadMinis} alt={'AirPods Pro 2'} className={styles.img} />
+            <div className={'flex-col mx-auto w-1/2 md:w-3/4 lg:w-1/2 -mt-10 md:-mt-16 lg:-mt-12 pb-10 lg:pb-16'}>
+                <div className={'pt-10 mb-4'}>
                     {/*Product Title*/}
                     <div className={'text-center'}>
                           <span className={''} style={{fontFamily: 'Helvetica', fontSize: '32px'}}>
@@ -17,7 +19,7 @@ export default function IPadMini2Tile() {
                     {/*Product Quote*/}
                     <div className={'text-center'} style={{fontFamily: 'Helvetica', fontSize: '16px'}}>
                           <span className={'px-6 text-center tracking-wide'}>
-                              {airPodProQuote}
+                              {iPadQuote}
                           </span>
                     </div>
                 </div>
@@ -27,15 +29,9 @@ export default function IPadMini2Tile() {
                     <div className={'flex justify-center gap-3'}>
                         <button className={'bg-blue-500 text-white py-2 px-4 rounded-full text-sm'}>Learn More</button>
                         <button className={'bg-transparent text-blue-500 border border-blue-500 py-2 px-4 rounded-full text-sm'}>Buy</button>
-
                     </div>
-                    {/*Small Text*/}
-                    {/*<div className={'text-center'}>*/}
-                    {/*    <span className={'text-black'}>Apple Intelligence coming this fall</span>*/}
-                    {/*</div>*/}
                 </div>
             </div>
-
         </div>
     )
 }

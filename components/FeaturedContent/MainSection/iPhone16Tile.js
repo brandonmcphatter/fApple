@@ -1,24 +1,27 @@
-import styles from "@/components/FeaturedContent/MainSection/MainContentTile.module.css";
+import styles from "@/components/FeaturedContent/MainSection/iPhone16Tile.module.css";
+import Image from "next/image";
+import iPhone16s from '../../../public/img/iphone16lineup.png';
 
 export default function IPhone16Tile() {
     const product = 'iPhone 16 ';
-    const appleWatchQuote = 'Hello Apple Intelligence.';
-    const bgColor = 'orange';
+    const iPhoneQuote = 'Cool. Colorful.';
+
     return (
         <>
-            <div className={styles.mainContent} style={{backgroundColor: `${bgColor}`}}>
-                <div className={'flex-col w-1/2 md:w-3/4 mt-30 md:mt-1 lg:mt-3'}>
-                    <div className={'pt-10 mb-4'}>
+            <div className={styles.iPhone16}>
+                <Image src={iPhone16s} alt={'iPhone 16 gallery'} className={styles.img} />
+                <div className={'flex-col md:-mb-6 '}>
+                    <div className={'pt-10 mb-4 text-black'}>
                         {/*Product Title*/}
                         <div className={'text-center'}>
-                          <span className={''} style={{fontFamily: 'Helvetica', fontSize: '32px'}}>
+                          <span className={''} style={{fontFamily: 'Helvetica', fontSize: '32px', fontWeight: 500}}>
                               {product}
                           </span>
                         </div>
                         {/*Product Quote*/}
                         <div className={'text-center'} style={{fontFamily: 'Helvetica', fontSize: '16px'}}>
-                          <span className={'px-6 text-center tracking-wide'}>
-                              {appleWatchQuote}
+                          <span className={'px-6 text-center tracking-wide font-thin'}>
+                              {iPhoneQuote}
                           </span>
                         </div>
                     </div>

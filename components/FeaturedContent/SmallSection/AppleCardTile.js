@@ -1,4 +1,4 @@
-import styles from "@/components/FeaturedContent/SmallSection/MiniContentTile.module.css";
+import styles from "@/components/FeaturedContent/SmallSection/AirPodProTile.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faApple} from "@fortawesome/free-brands-svg-icons";
 
