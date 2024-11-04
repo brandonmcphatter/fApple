@@ -1,0 +1,46 @@
+.miniContent{
+    height: 32rem;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    position: relative;
+    background-color: #c99b9b;
+    overflow: hidden;
+    padding-top: 1rem;
+
+
+
+}
+
+.img {
+    height: 20rem;
+    width: 20rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+
+}
+
+@media (min-width: 768px) {
+    .miniContent{
+        height: 30rem;
+        padding-bottom: 2rem;
+    }
+    .img {
+        height: 18rem;
+        width: 18rem;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .miniContent{
+        height: 36rem;
+        padding-top: 3rem;
+    }
+
+    .img {
+        width: 25rem;
+        height: 25rem;
+    }
+}
