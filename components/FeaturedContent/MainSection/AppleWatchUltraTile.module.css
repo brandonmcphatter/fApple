@@ -1,0 +1,42 @@
+.iPhone16 {
+    height: 32rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    position: relative;
+    background-color: black;
+}
+.img{
+    height: 30rem;
+    width: 30rem;
+    margin: 0 auto;
+    z-index: 0;
+
+}
+
+@media (min-width: 768px) {
+    .iPhone16 {
+        height: 45rem;
+    }
+
+    .img{
+
+        height: 43rem;
+        width: 43rem;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .iPhone16 {
+        height: 52rem;
+    }
+
+    .img {
+        height: 50rem;
+        width: 50rem;
+    }
+}
