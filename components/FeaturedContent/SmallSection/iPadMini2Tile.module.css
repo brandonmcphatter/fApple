@@ -1,0 +1,33 @@
+.miniContent{
+    height: 32rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: #b7b7b7;
+
+
+}
+
+.img {
+    height: 25rem;
+    width: 25rem;
+    margin: 1rem auto 2rem  ;
+}
+@media (min-width: 768px) {
+    .miniContent{
+        height: 30rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .miniContent{
+        height: 36rem;
+    }
+
+    .img {
+        width: 31rem;
+        height: 31rem;
+    }
+}
