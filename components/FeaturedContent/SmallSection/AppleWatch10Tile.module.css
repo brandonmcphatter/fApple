@@ -38,7 +38,7 @@
     .miniContent{
         height: 36rem;
         padding-top: 3rem;
-        z-index: 100;
+        z-index: 90;
     }
 
     .img {
