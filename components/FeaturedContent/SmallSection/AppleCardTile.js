@@ -6,6 +6,7 @@ import {faApple} from "@fortawesome/free-brands-svg-icons";
 
 export default function AppleCardTile() {
     const product = 'Card';
+
     return (
         <div className={styles.miniContent}>
             <Image src={appleCard} alt={'AirPods Pro 2'} className={styles.img} />
