@@ -6,8 +6,6 @@ import {useState} from "react";
 import CarouselItem from "@/components/FeaturedContent/AppleTVSection/CarouselItem";
 
 export default function AppleTVCarousel() {
-    const [active, setActive] = useState(1);
-    const blk = 'black';
     const gry = 'gray';
 
     return (
