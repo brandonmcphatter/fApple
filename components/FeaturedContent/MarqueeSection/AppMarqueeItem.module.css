@@ -1,0 +1,50 @@
+.container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-right: .4rem;
+    position: relative;
+    background-color: black;
+    justify-content: center;
+    height: 6rem;
+    width: 14rem;
+}
+.img {
+    object-fit: fill;
+}
+.category {
+    position: absolute;
+    bottom: 1px;
+    right: 5px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .container {
+        height: 7rem;
+        width: 16rem;
+    }
+    .img{
+        height: 12rem;
+        width: 20rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        height: 12rem;
+        width: 24rem;
+    }
+
+    .img {
+        height: 16rem;
+        width: 24rem;
+    }
+
+    .category {
+        position: absolute;
+        bottom: 4px;
+        right: 10px;
+
+    }
+}
