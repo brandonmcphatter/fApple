@@ -1,0 +1,37 @@
+.iPhone16Pro {
+    height: 32rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    position: relative;
+    background-color: black;
+}
+.img{
+    height: 20rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+
+
+@media (min-width: 768px) {
+    .iPhone16Pro {
+        height: 45rem;
+    }
+
+    .img{
+
+        height: 33rem;
+        width: 33rem;
+
+    }
+}
+
+@media (min-width: 1024px) {
+    .iPhone16Pro {
+        height: 52rem;
+    }
+}
