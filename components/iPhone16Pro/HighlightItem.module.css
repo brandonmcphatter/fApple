@@ -1,22 +1,40 @@
 .item{
-    min-height: 35rem;
     min-width: 32rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: black;
     border-radius: 2rem;
     position: relative;
+    overflow: hidden;
 }
 
 .img {
-    border-radius: 2rem;
-    object-fit: contain;
+
+    object-fit: cover;
+    padding-top: 7rem;
+}
+
+.quote {
+    position: absolute;
+    width: 100%;
+    top: 12%;
+    color: white;
+    text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+
 }
 
 @media (min-width: 768px) {
     .item{
-        height: 23rem;
-        width: 42rem;
+        height: 40rem;
+        min-width: 45rem;
+    }
+    .quote{
+        font-size: 30px;
     }
 }
 
