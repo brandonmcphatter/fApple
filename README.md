@@ -25,7 +25,7 @@ This project is an exercise in building a responsive, elegant, and modern web ap
 - View the live demo of fApple here -> [fApple](https://f-apple.vercel.app)
 
 <div align="center">
-<p style="display: flex; justify-content: space-between; gap: .4rem; max-height: 3rem">
+<p style="display: flex; justify-content: space-between; gap: .4rem; max-height: 2rem">
 <img src="./public/img/demoFiles/demoShot.png" alt="demo shot 1" width="70%" >
 <img src="./public/img/demoFiles/demoShot2.jpg" alt="demo shot 2" width="25%">
 </p>
