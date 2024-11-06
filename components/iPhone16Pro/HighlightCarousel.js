@@ -27,10 +27,9 @@ export default function HighlightCarousel() {
     return (
 
 
-        <div className={'px-3'} style={{fontFamily: 'Helvetica'}}>
+        <div className={''} style={{fontFamily: 'Helvetica'}}>
             {/*Carousel*/}
-
-            <div className={'flex gap-5 overflow-x-auto '}>
+            <div className={'flex  overflow-x-scroll '}>
                 {slides.map((slide, index) => {
                     return <HighlightItem photo={slide} key={index} quote={quotes[index]}/>
                 })}

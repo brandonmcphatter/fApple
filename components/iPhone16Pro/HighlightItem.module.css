@@ -1,5 +1,7 @@
 .item{
-    min-width: 32rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    min-width: 28rem;
     height: 40rem;
     display: flex;
     flex-direction: column;
