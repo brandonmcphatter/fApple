@@ -30,7 +30,7 @@ export default function IPhoneTile() {
                     </div>
                     {/*Buttons*/}
                     <div className={'flex justify-center gap-3'}>
-                        <Link href={'/iphone-16-pro'} >
+                        <Link href={'https://www.apple.com/shop/buy-iphone/iphone-16-pro'} >
                             <button
                                 className={'bg-transparent hover:bg-blue-400 text-blue-500 hover:text-white border border-blue-500 py-2 px-4 rounded-full text-sm'}>Buy
                             </button>

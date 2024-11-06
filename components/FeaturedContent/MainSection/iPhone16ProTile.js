@@ -34,9 +34,11 @@ export default function IPhone16ProTile() {
                                 <button className={'bg-blue-500 hover:bg-blue-400 text-white py-2 px-4 rounded-full text-sm'}>Learn More
                                 </button>
                             </Link>
+                            <Link href={'https://www.apple.com/shop/buy-iphone/iphone-16-pro'}>
                             <button
                                 className={'bg-transparent hover:bg-blue-400 text-blue-500 hover:text-white border border-blue-500 py-2 px-4 rounded-full text-sm'}>Buy
                             </button>
+                            </Link>
 
                         </div>
                         {/*Small Text*/}
