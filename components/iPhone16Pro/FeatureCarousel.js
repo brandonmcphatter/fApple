@@ -15,8 +15,8 @@ export default function FeatureCarousel() {
         'Four striking colors, from Black Titanium to new Desert Titanium'];
 
     return (
-        <div className={'bg-black pt-1'}>
-            <div className={'bg-black flex gap-3 overflow-x-auto mb-8 snap-x '}>
+        <div className={' pt-1'}>
+            <div className={' flex gap-3 overflow-x-auto mb-8 snap-x '}>
                 <div className={'flex gap-3 md:gap-10 ps-14 no-scrollbar pe-96'}>
                     {images.map((image,index ) => {return (
                         <FeatureCarouselItem key={index} photo={image} text={quotes[index]} />
