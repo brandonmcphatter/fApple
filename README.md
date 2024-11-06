@@ -26,7 +26,7 @@ This project is an exercise in building a responsive, elegant, and modern web ap
 
 <div align="center">
 <p style="display: flex; justify-content: space-between; gap: .4rem">
-<img src="./public/img/demoFiles/demoShot.png" alt="demo shot 1" width="75%" >
+<img src="./public/img/demoFiles/demoShot.png" alt="demo shot 1" width="70%" >
 <img src="./public/img/demoFiles/demoShot2.jpg" alt="demo shot 2" width="25%">
 </p>
 </div>
