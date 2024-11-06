@@ -5,9 +5,12 @@ export default function HighlightItem({photo, quote}) {
     return (
 
         <div className={styles.item}>
-            <div className={'bg-white overflow-hidden'}>
+
                 <Image src={photo} alt={'feature'} fill={true} className={styles.img}/>
-            </div>
+                <div className={styles.quote}>
+                    <div className={'px-36 md:px-36 lg:px-6'}>{quote}</div>
+                </div>
+
         </div>
     )
 }
