@@ -22,7 +22,7 @@ function AllProducts({iPhoneView, toggleMenu}) {
         <div>
             {/*X and < buttons*/}
             <div className={'flex justify-end pt-5 pe-5 pb-8'}>
-                <FontAwesomeIcon onClick={toggleMenu} icon={faX} style={{color: '#e8e8ed'}}/>
+                <FontAwesomeIcon onClick={toggleMenu} icon={faX} style={{color: '#e8e8ed'}} className={'cursor-pointer'}/>
             </div>
             {/*List of options*/}
             <div className={'ps-10  text-2xl tracking-wide'} style={{fontFamily: 'Helvetica', color: '#e8e8ed'}}>
@@ -49,11 +49,11 @@ function OptionView({toggleMenu, allView}) {
         <div>
             {/*X and < buttons*/}
             <div className={'flex justify-between pt-5 px-5 pb-8'}>
-                <FontAwesomeIcon onClick={allView} icon={faAngleLeft} style={{color: 'e8e8ed'}}/>
-                <FontAwesomeIcon onClick={toggleMenu} icon={faX} style={{color: 'e8e8ed'}}/>
+                <FontAwesomeIcon onClick={allView} icon={faAngleLeft} style={{color: 'e8e8ed'}} className={'cursor-pointer'}/>
+                <FontAwesomeIcon onClick={toggleMenu} icon={faX} style={{color: 'e8e8ed'}} className={'cursor-pointer'}/>
             </div>
             {/*List of options*/}
-            <div className={'ps-10  text-2xl tracking-wide'} style={{fontFamily: 'Helvetica', color: '#e8e8ed'}}>
+            <div className={'ps-10 pb-24 text-2xl tracking-wide'} style={{fontFamily: 'Helvetica', color: '#e8e8ed'}}>
                 <ul className={'grid'}>
                     <DropItem name={'Explore All iPhone'}/>
                     <Link onClick={toggleMenu} href={'/iphone-16-pro'}>
@@ -81,7 +81,7 @@ function OptionView({toggleMenu, allView}) {
                             </div>
                         </div>
 
-                        <div>
+                        <div className={'pb-36'}>
                             <li className={'mb-6'} style={{color: '#86868b'}}>More from iPhone</li>
                             <div className={'grid gap-2.5'}>
                                 <li>iPhone Support</li>
