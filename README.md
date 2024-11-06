@@ -7,7 +7,6 @@ This project is an exercise in building a responsive, elegant, and modern web ap
 - Responsive Design: Optimized for desktop, ,tablet, and mobile devices.
 - Dynamic Product Pages: Simulating Apple’s product categories
 - Modular Components: Component-based structure for easy re-usability and maintainability.
-[//]: # (- Search and Cart Functionality: Search bar and a simple cart to simulate e-commerce functionality.)
 
 ## Technologies
 - Frontend: HTML / CSS / JavaScript
