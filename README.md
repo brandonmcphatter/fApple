@@ -5,13 +5,12 @@ This project is an exercise in building a responsive, elegant, and modern web ap
 
 ## Features
 - Responsive Design: Optimized for desktop, ,tablet, and mobile devices.
-- Dynamic Product Pages: Simulate Apple’s product categories, showcasing items like iPhones, MacBooks, etc.
-- Search and Cart Functionality: Search bar and a simple cart to simulate e-commerce functionality.
+- Dynamic Product Pages: Simulating Apple’s product categories
 - Modular Components: Component-based structure for easy re-usability and maintainability.
+[//]: # (- Search and Cart Functionality: Search bar and a simple cart to simulate e-commerce functionality.)
 
 ## Technologies
 - Frontend: HTML / CSS / JavaScript
-- Backend: SupaBase
 - JS: Next.JS
 - CSS: Tailwind CSS
 - Icons: fontAwesome
@@ -19,9 +18,16 @@ This project is an exercise in building a responsive, elegant, and modern web ap
 
 ## Usage
 - Home Page: Displays Apple’s signature products and promotions.
-- Product Pages: Provides detailed views of products (e.g., iPhone, iPad, Mac).
-- Navigation: Explore various Apple categories.
-- Cart Simulation: Add products to the cart (basic functionality).
+- Product Page: Provides detailed views of product (iPhone16 Pro).
+- Navigation: Explore various Apple categories. (currently only iPhone16 Pro).
 
 ## Demo 
-- View the live demo of fApple here -> fApple Live Demo
+- View the live demo of fApple here -> [fApple](https://f-apple.vercel.app)
+
+<div align="center">
+<p style="display: flex; justify-content: space-between; gap: .4rem">
+<img src="./public/img/demoFiles/demoShot.png" alt="demo shot 1" width="75%" >
+<img src="./public/img/demoFiles/demoShot2.jpg" alt="demo shot 2" width="25%">
+</p>
+</div>
+
