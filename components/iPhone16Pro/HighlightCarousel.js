@@ -1,7 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCircle} from "@fortawesome/free-solid-svg-icons";
 import HighlightItem from "@/components/iPhone16Pro/HighlightItem";
-import slide2 from '/public/img/slide2.jpg';
 import slide3 from '/public/img/slide3.jpg';
 import slide4 from '/public/img/slide4.jpg';
 import slide5 from '/public/img/slide5.jpg';
